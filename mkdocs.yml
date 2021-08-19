@@ -7,3 +7,20 @@ theme:
         - rust
         - python
     locale: fr
+pages:
+    - Home : 'index.md'
+    - Recrutement: 'recrut.md'
+    - Commandes : 
+        - 'Configuration' : 'commands/config.md'
+        - 'Fiches' : 'commands/fiches.md'
+        - 'Channels' : 'commands/chan.md'
+        - 'Administration' : 'commands/admin.md'
+        - 'Personae' : 'commands/personae.md'
+    - Tutoriels: 
+        - 'Fiche' : 'tuto/fiche.md'
+        - 'Personae' : 
+            - 'Configuration' : 'tuto/persona/config.md'
+            - 'Création' : 'tuto/persona/creation.md'
+            - 'Message' : 'tuto/persona/message.md'
+        - 'Channel' : 'tuto/chan.md'
+        
