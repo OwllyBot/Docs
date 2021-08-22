@@ -1,6 +1,6 @@
 site_name: Owlly — Documentation
 theme:
-    name: material
+    name: readthedocs
     highlightjs: true
     hljs_languages:
         - yaml
