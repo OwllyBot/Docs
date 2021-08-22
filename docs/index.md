@@ -8,6 +8,10 @@ Owlly est un bot qui permet de gérer l’administration d’un RP ainsi que div
 - La possibilité de donner des rôles rapidement à un joueur, pouvant **ou non** déjà existé.  
 - Enfin, des “Personae”, webhook similaire à ceux de tupperbox, mais lié au serveur.   
 
+# Informations à propos de la documentation :
+- Au sein de cette documentation, nous utiliserons le `?` en tant que préfixe de commande. Ce préfixe est configurable.   
+- Les paramètres entre `<` (e.g `<paramètre>`) sont obligatoires.
+
 ### Contacts
 - [Signaler un bug](https://github.com/OwllyBot/Owlly/issues/new?assignees=&labels=bug&template=bug_report.md&title=%5BBUG%5D)  
 - [Suggestions de commandes](https://github.com/OwllyBot/Owlly/issues/new?assignees=&labels=Commande%2C+enhancement&template=commande-request.md&title=%5BCOMMANDE%5D)  
