@@ -1,7 +1,7 @@
 # Configuration générale
 
-!!! note
-	Les commandes suivantes sont réservés aux administrateurs du serveur.
+!!! danger
+Les commandes suivantes sont réservés aux administrateurs du serveur.
 
 `?config` : Permet de configurer à la suite :
 
