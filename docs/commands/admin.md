@@ -1,6 +1,6 @@
 # Configuration générale
 
-!!! danger
+!!! Warning
 Les commandes suivantes sont réservés aux administrateurs du serveur.
 
 `?config` : Permet de configurer à la suite :

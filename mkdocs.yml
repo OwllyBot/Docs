@@ -1,4 +1,7 @@
 site_name: Owlly — Documentation
+site_description: La documentation officielle du bot de Roleplay Owlly
+site_author: Owlly Team
+
 theme:
     name: readthedocs
     highlightjs: true
@@ -7,7 +10,7 @@ theme:
         - rust
         - python
     locale: fr
-pages:
+nav:
     - Home : index.md
     - Recrutement: recrut.md
     - Commandes : 
