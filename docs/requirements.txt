@@ -1,1 +1,2 @@
 mkdocs==1.2.2
+mkdocs-ezlinks-plugin==0.1.12
