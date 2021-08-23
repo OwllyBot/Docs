@@ -7,6 +7,8 @@ theme:
         - rust
         - python
     locale: fr
+    titles_only: false
+    collapse_navigation: true
 pages:
     - Home : 'index.md'
     - Recrutement: 'recrut.md'
@@ -27,3 +29,6 @@ markdown_extensions:
     - toc:
         permalink: "#"
     - footnotes
+    - markdown-typografix
+    - Admonition
+    - Attribute Lists
