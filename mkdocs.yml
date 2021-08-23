@@ -7,24 +7,32 @@ theme:
         - rust
         - python
     locale: fr
-    titles_only: false
-    collapse_navigation: true
 pages:
-    - Home : 'index.md'
-    - Recrutement: 'recrut.md'
+    - Home : index.md
+    - Recrutement: recrut.md
     - Commandes : 
-        - 'Configuration' : 'commands/admin.md'
-        - 'Fiches' : 'commands/fiches.md'
-        - 'Channels' : 'commands/chan.md'
-        - 'Personae' : 'commands/personae.md'
-        - 'Utilitaire' : 'commands/utilitaire.md'
+        - Configuration : commands/admin.md
+        - Fiches : commands/fiches.md
+        - Channels : commands/chan.md
+        - Personae : commands/personae.md
+        - Utilitaire : commands/utilitaire.md
     - Tutoriels: 
-        - 'Fiche' : 'tuto/fiche.md'
-        - 'Personae' : 
-            - 'Configuration' : 'tuto/persona/config.md'
-            - 'Création' : 'tuto/persona/creation.md'
-            - 'Message' : 'tuto/persona/message.md'
-        - 'Channel' : 'tuto/chan.md'
+        - Fiche : tuto/fiches.md
+        - Personae : 
+            - Configuration : tuto/persona/config.md
+            - Création : tuto/persona/creation.md
+            - Message : tuto/persona/message.md
+        - Channel : tuto/chan.md
 markdown_extensions:
     - footnotes
     - smarty
+    - admonition
+    - attr_list
+    - sane_lists
+    - legacy_attrs
+    - toc:
+        permalink: "#"
+        baselevel: 2
+        separator: "_"
+plugins:
+    - ezlinks

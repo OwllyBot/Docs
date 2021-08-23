@@ -10,28 +10,28 @@
 - Les [tags HRP](personae.md#tags-hrp)
 - Les channels et catégories RP
 
-# Prefix
+## Prefix
 
 - `?set_prefix <prefix>` : Permet de changer le préfixe
 - `@Owlly prefix` et `$$prefix`: Permettent d’obtenir le préfixe du bot (en cas d’oublie ;))
 
-# Member
+## Member
 
-## Administration
+### Administration
 
-### Commande en ligne
+#### Commande en ligne
 
 - `?admin_member add <role>` : Permet d’enregistrer ou réenregistrer la liste des rôles donnés par la commande `?member` sans passer par le menu de configuration.
 - `?admin_member rm <role>` : Permet de supprimer des rôles automatiquement par la commande `?member`.
 
 Le paramètre `<role>` peut être une suite de rôle sous forme de nom, ID ou mention.
 
-### Menus
+#### Menus
 
 - `menu_member add` : Ouvre le menu pour configurer les rôles ajoutés par la commande.
 - `menu_member rm` : Ouvre le menu pour supprimer des rôles par la commande `member`.
 
-## Ajouter un nouveau membre
+### Ajouter un nouveau membre
 
 `?member <user> <*role>`
 
@@ -46,11 +46,11 @@ Cette commande permet à un administrateur de rajouter des rôles rapidement à 
 - Les `*role` peut être une suite de rôle sous forme d’ID, nom ou mention.
 - `user` peut être un nom, une mention ou un ID.
 
-# Channel RP
+## Channel RP
 
 `?chanRP`[^alias] : Ouvre le menu de configuration des channels et catégories RP.
 
-# Pattern HRP
+## Pattern HRP
 
 `?patternHRP` : Permet de configurer le pattern HRP, c'est-à-dire que :
 
@@ -65,7 +65,7 @@ Les différentes manières de configurer un pattern[^3] sont :
 - `stop` et `cancel` permettent d’annuler la configuration.
 - `0` Permet de supprimer le pattern.
 
-## Délais de suppression HRP
+### Délais de suppression HRP
 
 `?delay_HRP` : Cette commande ouvre un menu de configuration qui permet de configurer le délai de suppression.
 
