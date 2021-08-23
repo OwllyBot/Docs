@@ -11,7 +11,7 @@ pages:
     - Home : 'index.md'
     - Recrutement: 'recrut.md'
     - Commandes : 
-        - 'Configuration' : 'commands/config.md'
+        - 'Configuration' : 'commands/admin.md'
         - 'Fiches' : 'commands/fiches.md'
         - 'Channels' : 'commands/chan.md'
         - 'Personae' : 'commands/personae.md'
@@ -26,3 +26,4 @@ pages:
 markdown_extensions:
     - toc:
         permalink: "#"
+    - footnotes
