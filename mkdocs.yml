@@ -27,6 +27,6 @@ pages:
         - 'Channel' : 'tuto/chan.md'
 markdown_extensions:
     - toc:
-        permalink: "#"
+        permalink: True
     - footnotes
     - smarty
