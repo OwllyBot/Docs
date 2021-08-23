@@ -29,5 +29,5 @@ markdown_extensions:
     - toc:
         permalink: "#"
     - footnotes
-    - Admonition
     - Attribute Lists
+    - smarty
