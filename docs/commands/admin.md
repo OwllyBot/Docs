@@ -3,7 +3,7 @@
 !!! Note
 	Les commandes suivantes sont réservés aux administrateurs du serveur.
 
-`?config` : Permet de configurer à la suite :
+`?config` permet de configurer à la suite :
 
 - Le prefix
 - Les rôles ajoutés et supprimés automatiquement par la commande `?member`
