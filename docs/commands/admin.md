@@ -13,10 +13,10 @@
 - Les [tags HRP](personae.md#tags-hrp)
 - Les channels et catégories RP
 
-## Prefix
+## Prefixe
 
-- `?set_prefix <prefix>` : Permet de changer le préfixe
-- `@Owlly prefix` et `$$prefix`: Permettent d’obtenir le préfixe du bot (en cas d’oublie ;))
+`?set_prefix <prefix>` : Permet de changer le préfixe
+
 
 ## Member
 

@@ -13,7 +13,7 @@ Owlly est un bot qui permet de gérer l’administration d’un RP ainsi que div
 ## Informations
 
 - Au sein de cette documentation, nous utiliserons le `?` en tant que préfixe de commande. Ce préfixe est configurable.
-- Les paramètres entre `<` (e.g `<paramètre>`) sont obligatoires.
+- Les paramètres entre `<>` (e.g `<paramètre>`) sont obligatoires.
 
 ## Contacts
 
