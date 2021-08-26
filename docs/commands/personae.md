@@ -1,6 +1,8 @@
+# 
+
 ## Administration
 !!! Note
-Ces commandes sont réservés aux administrateurs du serveur.
+	Ces commandes sont réservés aux administrateurs du serveur.
 
 → [Liens vers le tutoriel](../tuto/Personae/config.md)	
 
@@ -9,16 +11,16 @@ Ces commandes sont réservés aux administrateurs du serveur.
 - `?active_persona 1` : Active globalement les Personae sur le serveur.
 
 !!! Warning
-Cette commande écrase le nombre maximum de Personae autorisé. 
+	Cette commande écrase le nombre maximum de Personae autorisé. 
 
 !!! Note
-Il est possible de passer par `?max_config -1` et `?max_config 0` pour désactiver les Personae sur le serveur.
+	Il est possible de passer par `?max_config -1` et `?max_config 0` pour désactiver les Personae sur le serveur.
 
 `?admin_rp` : Affiche le panneau de configuration des Personae, permettant de modifier les différents paramètres à partir de choix.
 
 ### Sticky Mode
 !!! Note
-Le `sticky` permet de garder son persona en permanence, sauf lors de l’utilisation d’un autre “token” ou du [Pattern HRP|pattern HRP](admin.md#Pattern%20HRP)
+	Le `sticky` permet de garder son persona en permanence, sauf lors de l’utilisation d’un autre “token” ou du [Pattern HRP|pattern HRP](admin.md#Pattern%20HRP)
 
 `?sticky_mode`[^1] : Active ou désactive le mode sticky.
 
@@ -44,7 +46,7 @@ Il est aussi possible de configurer la mise en forme, avec, par exemple :
 
 ### Edition
 !!! Note
-Il est aussi possible d’utiliser les token des personnages en plus de leurs noms. 
+	Il est aussi possible d’utiliser les token des personnages en plus de leurs noms. 
 
 - `?personae nom <nom_personae> <nouveau_nom>` : Permet d’éditer le nom d’une Persona `<nom_personae>` par `<nouveau_nom>`.
 -  `?personae token <nom_Personae>` : Permet d’éditer le token d’une Persona .
