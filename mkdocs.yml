@@ -20,10 +20,7 @@ nav:
         - Utilitaire : commands/utilitaire.md
     - Tutoriels: 
         - Fiche : tuto/fiches.md
-        - Personae : 
-            - Configuration : tuto/personae/config.md
-            - Création : tuto/personae/creation.md
-            - Message : tuto/personae/message.md
+        - Personae : tuto/personae.md
         - Channel : tuto/chan.md
     - Recrutement: recrut.md
 

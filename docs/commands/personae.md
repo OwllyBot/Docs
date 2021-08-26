@@ -4,8 +4,7 @@
 !!! Note
 	Ces commandes sont réservés aux administrateurs du serveur.
 
-→ [Liens vers le tutoriel](../tuto/Personae/config.md)	
-
+→ [Liens vers le tutoriel](../tuto/Personae.md#Administration)
 ### Activation
 - `?active_persona 0` : Désactive globalement les Personae sur le serveur.
 - `?active_persona 1` : Active globalement les Personae sur le serveur.
@@ -39,7 +38,7 @@ Il est aussi possible de configurer la mise en forme, avec, par exemple :
 - `[@Server] - Personae`
 
 ## Personae
-→ [Liens vers le tutoriel](../tuto/Personae/creation.md) 
+→ [Liens vers le tutoriel](../tuto/Personae.md#Création)] 
 
 - `?personae` : Ouvre le menu de configuration des Personae.
 - `?personae_edit` : Ouvre le menu d’édition des Personae.
@@ -55,7 +54,7 @@ Il est aussi possible de configurer la mise en forme, avec, par exemple :
 
 ### Message
 
-→ [Liens vers le tutoriel](../tuto/Personae/message.md)
+→ [Lien vers le tutoriel](../tuto/Personae.md#Message)
 
 - Les Personæ se déclenchent à l’envoie d’un message avec un token (ou nom, en fonction du mode sticky et de la persona utilisé précédemment.)
 - L’édition se fait par l’utilisation de la fonction “réponse” de discord : Il suffit de répondre à son message avec le nouveau message.
