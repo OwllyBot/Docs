@@ -1,4 +1,4 @@
-# 
+# Créateurs de channels
 ## Ticket
 - `?ticket`[^ticket] : Ouvre le menu de configuration des tickets (permettant de créer, éditer et supprimer un créateur.)
 - `?recount <nombre> <id_createur>`[^recount] : Permet de relancer la numérotation des tickets manuellement. 
