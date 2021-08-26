@@ -4,18 +4,18 @@
 !!! Note
 	Ces commandes sont réservés aux administrateurs du serveur.
 
-→ [Liens vers le tutoriel](../tuto/personae.md#Administration)
+→ [Liens vers le tutoriel](../tuto/persona.md#Administration)
 ### Activation
-- `?active_persona 0` : Désactive globalement les Personae sur le serveur.
-- `?active_persona 1` : Active globalement les Personae sur le serveur.
+- `?active_persona 0` : Désactive globalement les Personæ sur le serveur.
+- `?active_persona 1` : Active globalement les Personæ sur le serveur.
 
 !!! Warning
-	Cette commande écrase le nombre maximum de Personae autorisé. 
+	Cette commande écrase le nombre maximum de Personæ autorisé. 
 
 !!! Note
-	Il est possible de passer par `?max_config -1` et `?max_config 0` pour désactiver les Personae sur le serveur.
+	Il est possible de passer par `?max_config -1` et `?max_config 0` pour désactiver les Personæ sur le serveur.
 
-`?admin_rp` : Affiche le panneau de configuration des Personae, permettant de modifier les différents paramètres à partir de choix.
+`?admin_rp` : Affiche le panneau de configuration des Personæ, permettant de modifier les différents paramètres à partir de choix.
 
 ### Sticky Mode
 !!! Note
@@ -27,10 +27,10 @@
 La commande `?max_config <nombre>`[^2] permet de limiter le nombre de Persona des joueurs, avec le `<nombre>` indiqué.
 
 ### Tag
-Les tags des Personae sont des patterns préconfigurés par les admins se trouvant sur l’ensemble des Personae. Ils peuvent être **avant** ou **après** le nom du personnage, et être :
+Les tags des Personæ sont des patterns préconfigurés par les admins se trouvant sur l’ensemble des Personæ. Ils peuvent être **avant** ou **après** le nom du personnage et être :
 - Le pseudo du joueur : `@user`;
 - Le nom du serveur : `@server` ;
-- L’ID du Persona : `@persona` ; 
+- L’ID de la Persona : `@persona` ; 
 
 Il est aussi possible de configurer la mise en forme, avec, par exemple :
 - `@user - Personae Nom`
@@ -38,14 +38,14 @@ Il est aussi possible de configurer la mise en forme, avec, par exemple :
 - `[@Server] - Personae`
 
 ## Personae
-→ [Liens vers le tutoriel](../tuto/personae.md#Création)] 
+→ [Liens vers le tutoriel](../tuto/persona.md#Création)] 
 
-- `?personae` : Ouvre le menu de configuration des Personae.
-- `?personae_edit` : Ouvre le menu d’édition des Personae.
+- `?personae` : Ouvre le menu de configuration des Personæ.
+- `?personae_edit` : Ouvre le menu d’édition des Personæ.
 
 ### Edition
 !!! Note
-	Il est aussi possible d’utiliser les token des personnages en plus de leurs noms. 
+	Il est aussi possible d’utiliser les tokens des personnages en plus de leurs noms. 
 
 - `?personae nom <nom_personae> <nouveau_nom>` : Permet d’éditer le nom d’une Persona `<nom_personae>` par `<nouveau_nom>`.
 -  `?personae token <nom_Personae>` : Permet d’éditer le token d’une Persona .
@@ -54,7 +54,7 @@ Il est aussi possible de configurer la mise en forme, avec, par exemple :
 
 ### Message
 
-→ [Lien vers le tutoriel](../tuto/personae.md#Message)
+→ [Lien vers le tutoriel](../tuto/persona.md#Message)
 
 - Les Personæ se déclenchent à l’envoie d’un message avec un token (ou nom, en fonction du mode sticky et de la persona utilisé précédemment.)
 - L’édition se fait par l’utilisation de la fonction “réponse” de discord : Il suffit de répondre à son message avec le nouveau message.
